@@ -63,13 +63,9 @@ class RolesSeeder extends Seeder
 
         User::create([
             'name'=>'admin',
-            'email'=>'cristian_admin_soos@gmail.com',
-            'password' => Hash::make('&%GT45fTg6Yhj(HbnGd41!'),
+            'email'=>'admin@admin.com',
+            'password' => Hash::make('password'),
         ])->assignRole('Admin');
-        // User::create([
-        //     'name'=>'client',
-        //     'email'=>'client@gmail.com',
-        //     'password'=>'$2y$10$o.CnHSqHSCQ7qSj4zlJU7u0N1QiKqrIjJ2bLP8j/wdw3W8NCA3DkK',
-        // ])->assignRole('Client');
     }
+    
 }
