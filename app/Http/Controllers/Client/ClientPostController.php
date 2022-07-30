@@ -140,7 +140,7 @@ class ClientPostController extends Controller
 
             'title' => '✅▷【Descargar todos los cursos de las plataformas más populares de aprendizaje actualizos】- Actualizado a Hoy '.Carbon::now()->format('Y-m-d').'',
 
-            'meta_keyword' => 'Cupones para Udemy, Cursos Online Gratis,codigos de promocion 100% OFF, cupones gratis, cursos gratis,cursos udemy gratis, descargar cursos de udemy gratis, cursos udemy mega, download courses udemy for Mega',
+            'meta_keyword' => "Cupones para Udemy, Cursos Online Gratis,codigos de promocion 100% OFF, cupones gratis, cursos gratis,cursos udemy gratis, descargar cursos de udemy gratis, cursos udemy mega, download courses udemy for Mega",
         ];
         return view('client.index', compact('posts', 'meta'));
     }
